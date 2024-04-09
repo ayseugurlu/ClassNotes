@@ -1,0 +1,75 @@
+
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+.container{
+    color: blue;
+}
+
+#par1{
+    color: blue;
+    text-align: center;
+    font-size: 1.3rem;
+    text-shadow: 5px 5px 10px rgb(231, 34, 34);
+    column-count: 3;  
+    column-rule: 3px solid red;
+     -webkit-column-count:3 ; /* browsera bagli uyumsuzluk olursa problemi kaldirabilir */
+    -moz-column-count: 3;
+
+    
+}
+#par2{
+    text-align: right;
+    direction: rtl;
+
+
+
+}
+#par3{
+    background-color: rgba(25, 23, 23, 0.296);
+    text-align: justify;
+    color: rgb(245, 245, 7);
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    text-indent: 50px;
+
+    
+
+
+}
+
+
+
+#par4{
+    color: green;
+    text-transform: uppercase;
+    text-decoration: underline wavy;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    word-spacing: 10px;
+
+
+}
+#par5{
+    color:brown;
+    text-transform: lowercase;
+    text-decoration: overline red;
+
+
+}
+
+#par6{
+    color: blueviolet;
+    text-transform: capitalize;
+    /* text-decoration: line-through; */
+    direction: rtl;
+    unicode-bidi: bidi-override;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+

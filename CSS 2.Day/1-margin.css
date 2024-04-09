@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+}
+
+body{
+    /* margin: 0; */
+}
+
+h1{
+    background-color: fuchsia;
+    /* margin-bottom: 0;
+    margin-top: 0; */
+    margin-top: 50px;
+}
+
+#part1{
+    background-color: olive;
+    /* margin-top: 0;
+    margin-bottom: 0; */
+    /* margin: 20px 40px; */
+    /* margin: 20px 40px 60px; */
+    border: 3px solid blue;
+    width: 250px;
+    margin: 50px auto;
+    /* padding: 10px 20px; */
+    padding: 10px 20px 30px 40px;
+
+}
+
+#part2{
+    background-color: lime;
+    /* margin-top: 0; */
+}
+.container{
+    border: 3px solid red;
+    background-color: bisque ;
+    margin: 50px;
+    /* border: 1px solid red; */
+    padding: 0.5px;
+}

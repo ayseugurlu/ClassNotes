@@ -1,0 +1,45 @@
+
+
+
+.container{
+    background-color: lightsalmon;
+    padding: 10px;
+
+
+}
+
+.div1{
+
+    background-color: rgba(212, 22, 186, 0.901);
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
+
+.div2{
+
+    background-color: rgb(169, 169, 223);
+    width: 150px;
+    height: 150px;
+    /* margin: 20px; */
+    border: 5px solid red;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
+
+.div3{
+
+    background-color: greenyellow;
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+
+}

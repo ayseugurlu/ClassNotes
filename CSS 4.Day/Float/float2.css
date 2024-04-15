@@ -1,0 +1,57 @@
+*{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header{
+
+    background-color: seagreen;
+    margin-top: 10px
+}
+
+main{
+    background-color: skyblue;
+    padding: 10px;
+    /* height: 350px; */
+    /* overflow: auto; */
+
+}
+
+/* .clear{
+    clear: both;
+
+
+} */
+
+.clear-fix::after{
+    content: 'harvey' ;
+    display: block;
+    clear: both;
+
+}
+
+aside{
+    background-color: darkgoldenrod;
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin-left: 15px;
+}
+
+article{
+    background-color: greenyellow;
+    width: 70%;
+    height: 300px;
+    float: left;
+    overflow: auto;
+}
+
+footer{
+    background-color: coral;
+}
+
+/* footer::before{
+    content: 'kemal';
+    display: block;
+} */

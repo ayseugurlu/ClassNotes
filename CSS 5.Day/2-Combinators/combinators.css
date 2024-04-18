@@ -1,0 +1,75 @@
+
+*{
+    border: 2px solid red;
+}
+
+html{
+    /* html Root elementtir */
+
+    font-size: 10px;
+
+
+
+}
+.card{
+    width: 30%;
+    background-color: bisque;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+
+
+}
+.card:hover{
+    background-color: cadetblue;
+}
+
+.card img{
+    width: 100%;
+}
+.card img:hover{
+    width: 102%;
+}
+
+.card img+h2{
+    color: brown;
+}
+
+.card img+h2::first-letter{
+    font-size: 40px;
+
+}
+
+
+
+.card > p{
+    font-size: 1.5rem;
+}
+
+.card > p::first-line{
+    font-weight: bold;
+}
+.emCheck{
+    font-size: 30px;
+    
+}
+.emCheck p{
+    font-size: 2em;
+    /* parent in boyutuna baglidir. rem ise root un boyutuna bagli degisir */
+
+
+}
+
+.card img+h2::before{
+    content: "🐳";
+    font-size: 0.5rem;
+}
+.card img+h2::after{
+    content: "🔆";
+}
+
+/* Attribute Selector */
+
+p[title="paragraf"]{
+    background-color: aquamarine;
+}

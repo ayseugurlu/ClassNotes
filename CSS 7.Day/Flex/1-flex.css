@@ -1,0 +1,20 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+
+}
+
+.container div{
+    background-color: rgb(233, 96, 119);
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid red;
+
+}

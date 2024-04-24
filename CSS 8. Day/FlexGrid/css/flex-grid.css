@@ -5,13 +5,7 @@
     
 }
 
-html{
-    border: none;
-}
 
-body{
-    border: none;
-}
 .row{
     display: flex;
     height: 100px;

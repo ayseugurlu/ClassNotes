@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 30% 50% 20%;
+    grid-template-rows: 20% 40% 20% 20%;
+
+    grid-template-areas: 
+    "osman osman osman"
+    "ali . veli"
+    "ece ece ece"
+    "ece ece ece";
+
+
+
+
+}
+
+.box{
+    border: 1px solid red;
+    background-color: bisque;
+}
+
+.box1{
+    /* grid-column-start: 1;
+    grid-column-end: 4;    */
+
+    /* #baska bir yol */
+    /* 1.sütundan 4.sütuna kadar git */
+
+    grid-area: osman;
+    background-color: aqua;
+    
+}
+
+.box2{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    grid-area: ali;
+    background-color: rgb(239, 130, 152);
+}
+
+.box3{
+    grid-area: veli;
+    background-color: tomato;
+}
+
+.box4{
+    /* grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5; */
+
+    grid-area: ece;
+    background-color: pink; 
+   
+}

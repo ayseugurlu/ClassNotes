@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 250px 400px 350px;
+    grid-template-rows: 250px 300px 100px ;
+}
+
+.parca{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.parca:nth-child(odd){
+    background-color: lightgray;
+}
+.parca:nth-child(even){
+    background-color: pink;
+}
+
+.bir{
+    background-image: url("https://picsum.photos/id/684/600/400");
+    background-size: cover;
+
+}
+
+.dort{
+    overflow: auto;
+    background-color: orange !important;
+    /* pseudo ile verdigimiz stil baskindir, ezmek istersek (overriding) !important ekliyoruz. */
+}
+
+

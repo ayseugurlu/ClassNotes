@@ -14,11 +14,11 @@
 /* ------------------------ */
 /*          Footer          */
 /* ------------------------ */
-.link-style a, footer.vertical .social-icons a, footer.horizontal a {
+.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
   padding: 0.4rem;
   transition: all 1s;
 }
-.link-style a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
+.link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
   color: #ff652f;
 }
 
@@ -48,6 +48,16 @@ footer.vertical .copyright {
   bottom: 1rem;
   right: 1rem;
   writing-mode: vertical-lr;
+}
+
+footer.middle {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 /* ------------------------ */
@@ -80,6 +90,80 @@ footer.vertical .copyright {
   color: #ff652f;
 }
 
+@media screen and (min-width: 0px) {
+  .nav {
+    padding: 0.5rem;
+  }
+  .nav__list {
+    text-align: center;
+  }
+  .nav__item {
+    padding-right: 0.7rem;
+  }
+  .nav .nav__link {
+    font-size: 0.9rem;
+  }
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .contact__list {
+    gap: 2rem 1.2rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .nav {
+    padding: 0.7rem;
+  }
+  .nav__list {
+    text-align: right;
+  }
+  .nav__item {
+    padding-right: 1rem;
+  }
+  .nav .nav__link {
+    font-size: 1rem;
+  }
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .contact__list {
+    gap: 2.5rem 2rem;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav__item {
+    padding-right: 1.3rem;
+  }
+  .nav .nav__link {
+    font-size: 1.3rem;
+  }
+  .projects__item {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav__item {
+    padding-right: 1.5rem;
+  }
+  .nav .nav__link {
+    font-size: 1.5rem;
+  }
+  .projects__item {
+    width: 50%;
+  }
+  .contact__list {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .projects__item {
+    width: 33%;
+  }
+}
 /* ------------------------ */
 /*           About          */
 /* ------------------------ */
@@ -143,16 +227,17 @@ footer.vertical .copyright {
 .contact h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
-  border: 2px solid red;
 }
 .contact__list {
-  border: 2px solid red;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   font-size: 1.5rem;
   align-items: center;
   gap: 2rem;
+}
+.contact .text-secondary {
+  color: #ff652f;
 }
 
 .home-bgImg-container {

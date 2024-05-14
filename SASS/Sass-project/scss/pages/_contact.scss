@@ -23,18 +23,22 @@
     h2{
         font-size: 3rem;
         margin-bottom: 2rem;
-        border: 2px solid red;
+        // border: 2px solid red;
 
     }
 
     &__list{
        
-        border: 2px solid red;
+       
          display: flex;
          flex-wrap: wrap;
          justify-content: center;
          font-size: 1.5rem;
          align-items: center;
          gap: 2rem;
+    }
+
+    .text-secondary{
+        color: $secondary-color;
     }
 }
